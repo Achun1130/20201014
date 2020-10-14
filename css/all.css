@@ -13783,8 +13783,9 @@ h5, .h5 {
   background-clip: border-box;
 }
 
-.input-text-text {
-  border-width: 0;
+.input-group-prepend,
+.input-group-append {
+  line-height: 1;
 }
 
 .list-group-item {
