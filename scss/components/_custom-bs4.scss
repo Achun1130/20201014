@@ -46,10 +46,12 @@
 .form-control {
     background-clip: border-box;
 }
+.input-text-text {
+    border-width: 0;
+}
 
 // List group
 .list-group-item {
-    font-weight: bold;
     font-size: $h4-font-size;
 }
 

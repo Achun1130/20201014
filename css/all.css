@@ -3521,7 +3521,7 @@ input[type="button"].btn-block {
   color: #3F5D45;
   text-align: center;
   white-space: nowrap;
-  background-color: #e9ecef;
+  background-color: #EAF0ED;
   border: 1px solid #EAF0ED;
   border-radius: 0;
 }
@@ -3869,7 +3869,7 @@ input[type="button"].btn-block {
   line-height: 1.5;
   color: #3F5D45;
   content: "Browse";
-  background-color: #e9ecef;
+  background-color: #EAF0ED;
   border-left: inherit;
   border-radius: 0 0 0 0;
 }
@@ -5269,13 +5269,13 @@ a.badge-white:focus, a.badge-white.focus {
 
 .list-group-item-action {
   width: 100%;
-  color: #495057;
+  color: #3F5D45;
   text-align: inherit;
 }
 
 .list-group-item-action:hover, .list-group-item-action:focus {
   z-index: 1;
-  color: #495057;
+  color: #3F5D45;
   text-decoration: none;
   background-color: #EAF0ED;
 }
@@ -13783,8 +13783,11 @@ h5, .h5 {
   background-clip: border-box;
 }
 
+.input-text-text {
+  border-width: 0;
+}
+
 .list-group-item {
-  font-weight: bold;
   font-size: 1.5rem;
 }
 
