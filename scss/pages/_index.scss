@@ -1,0 +1,94 @@
+.p-header {
+    &__banner {
+        height: 277px;
+        @media (min-width:768px) {   
+            height: 496px;
+        }
+    }
+    &__item {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        z-index: 1;
+        overflow: hidden;
+        border-right: 1px solid $white;
+        width: 100%;
+        height: 180px;
+        @media (min-width:768px) {
+            height: 256px;   
+        }
+        &:hover {
+            text-decoration: none;
+            .p-header__image {
+                filter: blur(0);
+            }
+            .p-header__bgColor {
+                background-color: rgba($secondary, .5);
+            }
+            .p-header__text {
+                font-weight: bold;
+                color: $primary;
+            }
+        }
+        &.active {
+            .p-header__image {
+                filter: blur(0);
+            }
+            .p-header__bgColor {
+                background-color: rgba($secondary, .5);
+            }
+            .p-header__text {
+                font-weight: bold;
+                color: $primary;
+            }
+        }
+    }
+    &__image {
+        position: absolute;
+        top: -5px;
+        bottom: -5px;
+        left: -5px;
+        right: -5px;
+        z-index: -2;
+        filter: blur(5px);
+        transition: all .5s;
+    }
+    &__bgColor {
+        background-color: rgba($primary, .5);
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        z-index: -1;
+        transition: all .5s;
+    }
+    &__text {
+        writing-mode: vertical-lr;
+        font-size: $h5-font-size;
+        letter-spacing: 0.315rem;
+        color: $white;
+        transition: all .5s;
+    }
+}
+
+.p-info {
+    &__image {
+        height: 250px;
+        @media (min-width:768px) {
+            height: 420px;   
+        }
+    }
+    &__text {
+        color: $info;
+        line-height: 2.5;
+        @media (min-width:768px) {
+            height: 280px;
+            writing-mode: vertical-rl;
+            p {
+                margin: 0;
+            }
+        }
+    }
+}

@@ -1,0 +1,32 @@
+.c-product {
+    position: relative;
+    &__image {
+        height: 315px;
+    }
+    &__title{
+        padding-top: 0.875rem;
+        padding-bottom: 0.875rem;
+        font-size: $h5-font-size;
+        line-height: 1.4;
+        font-weight: 500;
+        display: inline-block;
+        width: 100%;
+        text-align: center;
+    }
+    &__subtitle {
+        padding: 0.65625rem;
+        letter-spacing: 0.35rem;
+        line-height: 1;
+        writing-mode: vertical-rl;
+        color: $white;
+        background-color: $primary;
+        position: absolute;
+        top: 0;
+        left: 20px;
+    }
+    &__icon {
+        position: absolute;
+        top: 16px;
+        right: 22px;
+    }
+}

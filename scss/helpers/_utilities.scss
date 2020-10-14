@@ -1,0 +1,24 @@
+.h-lh-1 {
+    line-height: 1!important;
+}
+
+.h-bg-cover {
+    background-position: center center;
+    background-size: cover;
+}
+
+.h-text-light {
+    color: $light;
+}
+
+@media (min-width:768px) {
+    .h-bg-md-transparent {
+        background-color: transparent!important;
+    }
+    .h-bg-md-primary {
+        background-color: $primary!important;
+    }
+    .h-text-md-light {
+        color: $light;
+    }
+}

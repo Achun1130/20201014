@@ -1,0 +1,15 @@
+.p-success__banner {
+    height: 518px;
+    @media (min-width:768px) {
+        height: 496px;
+    }
+    &__btn {
+        position: absolute;
+        bottom: -65px;
+        left: -20px;
+        width: calc(100% + 40px);
+        @media (min-width:768px) {
+            position: static;
+        }
+    }
+}

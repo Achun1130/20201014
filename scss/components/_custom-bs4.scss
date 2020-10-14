@@ -1,0 +1,63 @@
+//  Grid
+.container {
+    max-width: 960px;
+    padding-left: 30px;
+    padding-right: 30px;
+    @media (min-width:768px) {
+        padding-left: 10px;   
+        padding-right: 10px;
+    }
+}
+
+// Pagination
+.page-link {
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+// Button
+.btn {
+    font-weight: bold;
+}
+.btn-white {
+    border-color: $light;
+}
+
+// Button group
+.btn-group-sm {
+    .btn {
+        width: 36px;
+        height: 36px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-weight: normal;
+        @media (min-width:374px) {
+            width: 48px;
+            height: 48px;
+        }
+    }
+}
+
+// Forms
+.form-control {
+    background-clip: border-box;
+}
+
+// List group
+.list-group-item {
+    font-weight: bold;
+    font-size: $h4-font-size;
+}
+
+.list-group-sm {
+    .list-group-item {
+        font-size: $h5-font-size;
+        line-height: 1.4;
+        padding-top: 0.8125rem;
+        padding-bottom: 0.8125rem;
+    }
+}
